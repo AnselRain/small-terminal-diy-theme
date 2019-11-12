@@ -3,7 +3,7 @@
  # @Author: ALAN
  # @Github: https://github.com/AnselRain
  # @Date: 2019-11-12 09:58:29
- # @LastEditTime: 2019-11-12 10:52:16
+ # @LastEditTime: 2019-11-12 10:58:26
  # @LastEditors: ALAN
  ###
 # Clean, simple, compatible and meaningful.
@@ -57,11 +57,11 @@ local exit_code="%(?,,C:%{$fg[red]%}%?%{$reset_color%})"
 PROMPT="
 %{$terminfo[bold]$fg[blue]%}😻😻😻 \
 %{$fg[white]%}@ \
-%{$fg[red]%}%m \
-%{$fg[white]%}⬆️⬆️➡️⬇️⬇️ \
+%{$fg[green]%}%m \
+%{$fg[white]%} ⬆️ ⬆️ ➡️ ⬇️ ⬇️ \
 %{$terminfo[bold]$fg[yellow]%}%~%{$reset_color%}\
 ${hg_info}\
 ${git_info}\
  \
 %{$fg[white]%}[%*] $exit_code
-%{$terminfo[bold]$fg[red]%}☣️ %{$reset_color%}"
+%{$terminfo[bold]$fg[red]%} 🌟⚡️ %{$reset_color%}"
