@@ -3,7 +3,7 @@
  # @Author: ALAN
  # @Github: https://github.com/AnselRain
  # @Date: 2019-11-12 09:58:29
- # @LastEditTime: 2019-11-12 10:58:26
+ # @LastEditTime: 2019-11-18 10:45:02
  # @LastEditors: ALAN
  ###
 # Clean, simple, compatible and meaningful.
@@ -55,13 +55,13 @@ local exit_code="%(?,,C:%{$fg[red]%}%?%{$reset_color%})"
 # % ys @ ys-mbp in ~/.oh-my-zsh on git:master x [21:47:42] C:0
 # $
 PROMPT="
-%{$terminfo[bold]$fg[blue]%}😻😻😻 \
+%{$terminfo[bold]$fg[blue]%}😻 \
 %{$fg[white]%}@ \
 %{$fg[green]%}%m \
-%{$fg[white]%} ⬆️ ⬆️ ➡️ ⬇️ ⬇️ \
+%{$fg[red]%}TUTUTU \
 %{$terminfo[bold]$fg[yellow]%}%~%{$reset_color%}\
 ${hg_info}\
 ${git_info}\
  \
 %{$fg[white]%}[%*] $exit_code
-%{$terminfo[bold]$fg[red]%} 🌟⚡️ %{$reset_color%}"
+%{$terminfo[bold]$fg[red]%}᮹ %{$reset_color%}"
